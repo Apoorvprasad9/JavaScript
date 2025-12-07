@@ -16,6 +16,21 @@
  console.log(gameName.toUpperCase());
  console.log(gameName.charAt(2));
  console.log(gameName.indexOf('t'));
- console.log("Apooorv");
+ 
+ const newString = gameName.substring(0,4)
+ console.log(newString);
+
+ const anotherString =gameName.slice(-8,4)
+ console.log(anotherString);
+
+ const newStringOne ="   apoorv   "
+ console.log(newStringOne);
+ console.log(newStringOne.trim());
+
+ const url ="https://apoorv.com/apoorv%20gupta"
+ console.log(url.replace('%20','-'))
+ console.log(url.includes('sundar'));
+ 
+ 
  
  
