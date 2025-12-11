@@ -20,7 +20,7 @@
     
 // }
 
-function chai=()=>{
+const chai = () => {
     let username="Apoorv"
     console.log(this.username);
 }
